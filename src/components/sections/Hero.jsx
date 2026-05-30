@@ -27,7 +27,7 @@ export default function Hero() {
               transition={{ duration: 0.5 }}
               className="inline-block rounded-full border border-brand-yellow/30 bg-brand-yellow/10 px-4 py-1.5 text-sm font-medium text-brand-yellow"
             >
-              Established 2017 · Metro Manila & Nationwide
+              Established 2019 · Metro Manila & Nationwide
             </motion.span>
 
             <motion.h1

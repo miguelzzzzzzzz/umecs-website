@@ -18,16 +18,24 @@ export default function Services() {
         <div className="mt-16 grid gap-8 lg:grid-cols-3">
           {services.map((service) => {
             const Icon = iconMap[service.icon]
+            const imageAspect = service.imageAspect ?? 'aspect-video'
             return (
               <div
                 key={service.category}
                 className="group flex flex-col overflow-hidden rounded-2xl border border-brand-muted bg-brand-light/50 transition-all duration-300 hover:-translate-y-1 hover:border-brand-red/20 hover:shadow-xl"
               >
-                <div className="relative aspect-video overflow-hidden">
+                <div
+                  className={`relative overflow-hidden ${imageAspect}`}
+                >
                   <img
                     src={service.image}
                     alt={service.category}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    style={
+                      service.imagePosition
+                        ? { objectPosition: service.imagePosition }
+                        : undefined
+                    }
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-brand-navy/60 to-transparent" />
                   <div className="absolute bottom-4 left-4 flex h-11 w-11 items-center justify-center rounded-lg bg-brand-red text-white">

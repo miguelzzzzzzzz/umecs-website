@@ -18,7 +18,7 @@ export default function About() {
               <p>
                 Unika Mechanical Engineering Construction Services (UMECS) is a
                 privately owned construction company operating as a Sole
-                Proprietorship. Established in 2017, UMECS is committed to
+                Proprietorship. Established in 2019, UMECS is committed to
                 delivering quality, reliable, and cost-effective construction
                 services across the Philippines.
               </p>
@@ -45,7 +45,7 @@ export default function About() {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 rounded-xl bg-brand-red px-6 py-4 text-white shadow-xl sm:-bottom-8 sm:-left-8">
-              <p className="text-3xl font-bold">2017</p>
+              <p className="text-3xl font-bold">2019</p>
               <p className="text-sm text-white/80">Year Established</p>
             </div>
           </div>

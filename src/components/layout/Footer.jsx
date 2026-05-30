@@ -16,7 +16,7 @@ export default function Footer() {
               />
               <div>
                 <p className="font-bold">UMECS</p>
-                <p className="text-xs text-white/60">Since 2017</p>
+                <p className="text-xs text-white/60">Since 2019</p>
               </div>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/70">

@@ -9,8 +9,8 @@ export const navLinks = [
 ]
 
 export const stats = [
-  { value: '2017', label: 'Established', suffix: '' },
-  { value: '9+', label: 'Years of Excellence', suffix: '' },
+  { value: '2019', label: 'Established', suffix: '' },
+  { value: '7+', label: 'Years of Excellence', suffix: '' },
   { value: '10+', label: 'Notable Projects', suffix: '' },
   { value: '100', label: 'Client Satisfaction', suffix: '%' },
 ]
@@ -65,6 +65,8 @@ export const services = [
     category: 'Mechanical Services',
     icon: 'Wrench',
     image: assets.services.mechanical,
+    imagePosition: 'center 15%',
+    imageAspect: 'aspect-[4/3] sm:aspect-[3/2] min-h-[280px] sm:min-h-[320px]',
     items: [
       'HVAC Installation',
       'Piping & Plumbing',
