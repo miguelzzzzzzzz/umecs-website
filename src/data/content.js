@@ -10,7 +10,7 @@ export const navLinks = [
 
 export const stats = [
   { value: '2017', label: 'Established', suffix: '' },
-  { value: '5+', label: 'Years of Excellence', suffix: '' },
+  { value: '9+', label: 'Years of Excellence', suffix: '' },
   { value: '10+', label: 'Notable Projects', suffix: '' },
   { value: '100', label: 'Client Satisfaction', suffix: '%' },
 ]
